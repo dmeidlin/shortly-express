@@ -8,6 +8,7 @@ Shortly.Router = Backbone.Router.extend({
     'create': 'create'
   },
 
+ 
   swapView: function(view){
     this.$el.html(view.render().el);
   },
